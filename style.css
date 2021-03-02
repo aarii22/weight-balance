@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+i{
+    font-size: 250px;
+    color: crimson;
+}
+.fa-balance-scale-left, .fa-balance-scale-right{
+    display: none;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
